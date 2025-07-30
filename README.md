@@ -4,7 +4,6 @@
 
 </div >
 
-![visualization](figs/teaser.jpg)
 
 ## Model
 
