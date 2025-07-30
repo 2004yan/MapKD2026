@@ -3,7 +3,7 @@
 1. Create conda environment
 ```
 conda env create -f environment.yml
-conda activate pmapnet
+conda activate mapkd
 ```
 2. Install pytorch
 ```
