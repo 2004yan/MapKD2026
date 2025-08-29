@@ -5,6 +5,10 @@
 Run `python train.py [config-file]`, for example:
 
 ```
+#Teacher Model
+You can download on (https://drive.google.com/file/d/1YHy4XvmvDvBJBuOVWXWR5h24zMm_2ZSB/view?usp=drive_link)
+#Coach Model
+You can download on (https://drive.google.com/file/d/1bmvH8yCWBBzwArIYObCSw-8_U4hA3d3F/view?usp=drive_link)
 # Student  model
 python train_final.py
 ```
