@@ -5,7 +5,6 @@
 Run `python train.py [config-file]`, for example:
 
 ```
-
 # Student  model
 python train_final.py
 ```
