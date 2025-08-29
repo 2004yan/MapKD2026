@@ -5,16 +5,14 @@
 Run `python train.py [config-file]`, for example:
 
 ```
-# Baseline model
-python train.py config/nusc/baseline/baseline_60m.py
-# SDMap Prior model
-python train.py config/nusc/sd_prior/sd_60m.py
+
+# Student  model
+python train_final.py
 ```
 
 Explanation of some parameters in `[config-file]`:
 * `dataroot`: the path of your nuScenes data
 * `logdir`: the path where log files, checkpoints, etc., are saved
-* `model`: model name. Currently, the following models are supported: `HDMapNet_cam`, `HDMapNet_fusion`, `pmapnet_sd[_cam]`, `pmapnet_hd`, and `hdmapnet_pretrain`. You can find them in the [file](../model/__init__.py).
 * `batch_size`: this should be the sum of samples across all GPUs, where `sample_per_gpu` = `batch_size` / `gpu_nums`.
 * `gpus`: the number of GPUs you are using.
 
