@@ -6,7 +6,7 @@
 
 
 ## Model
-
+Please see new branch in https://github.com/2004yan/MapKD_new
 ### Results on nuScenes-val set
 We provide results on nuScenes-val set.
 |     Method      |     M      |   Div.   |   Ped.   |  Bound.  |   mIoU    |   mAP    |
